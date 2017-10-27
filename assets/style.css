@@ -1,0 +1,9 @@
+body {
+	background-image: url("images/old_wall.png");
+}
+
+a.navbar-brand {
+	margin-left: 170px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
