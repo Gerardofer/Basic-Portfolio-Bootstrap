@@ -1,9 +1,67 @@
 body {
 	background-image: url("images/old_wall.png");
+	padding: 0;
+	margin: 0;
+	height: 0;
 }
 
-a.navbar-brand {
-	margin-left: 170px;
+hr{
+	color: #cccccc;
+	border-top: 2px solid #cccccc;
+	border-bottom: 2px solid #cccccc;
+}
+
+img {
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 2px;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+}
+
+#bio {
+	border: 2px solid #cccccc;
+	background-color: #ffffff;
+	width: 70%;
+	margin-right: 30px; 
+}
+
+#connect.col-md-3 {
+	height: 200px;
+	border: 2px solid #cccccc;	
+	background-color: #ffffff;
+}
+
+#top-bar {
+	/*background-color: #ffffff;*/
+}
+
+.navbar-fixed-bottom {
+	background-color: #777777;
+	color: #cccccc;
+	border-top: 6px solid #4aaaa5;
+}
+
+.icon {
+	font-size: 35px;
+	color: black;
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
+				 1px 3px 4px rgba(0,0,0,0.1),
+				 1px 4px 5px rgba(0,0,0,0.1);
+}
+
+#name {
 	background-color: #4aaaa5;
-	color: #ffffff;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0;
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
+				 1px 3px 4px rgba(0,0,0,0.1),
+				 1px 4px 5px rgba(0,0,0,0.1);
 }
