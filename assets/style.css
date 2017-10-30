@@ -1,54 +1,45 @@
 body {
-	background-image: url("images/old_wall.png");
-	padding: 0;
-	margin: 0;
-	height: 0;
+	background-image: url("images/ryan-holloway-168925.jpg");
+	background-size: cover;
+	background-position: center;
 }
 
 hr{
 	color: #cccccc;
-	border-top: 2px solid #cccccc;
-	border-bottom: 2px solid #cccccc;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 img {
 	float: left;
-	padding-right: 15px;
-	padding-bottom: 2px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 
 h3 {
-	color: #4aaaa5;
+	color: #117c75;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
+				 1px 3px 4px rgba(0,0,0,0.1),
+				 1px 4px 5px rgba(0,0,0,0.1);
 }
 
-#bio {
-	border: 2px solid #cccccc;
-	background-color: #ffffff;
-	width: 70%;
-	margin-right: 30px; 
+p {
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
 }
 
-#connect.col-md-3 {
-	height: 200px;
-	border: 2px solid #cccccc;	
-	background-color: #ffffff;
+p.paragraph {
+	margin-left: 315px;
+	color: white;
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
+				 1px 3px 4px rgba(0,0,0,0.1),
+				 1px 4px 5px rgba(0,0,0,0.1);
 }
 
-#top-bar {
-	/*background-color: #ffffff;*/
-}
-
-.navbar-fixed-bottom {
-	background-color: #777777;
-	color: #cccccc;
-	border-top: 6px solid #4aaaa5;
-}
-
-.icon {
-	font-size: 35px;
-	color: black;
+p {
+	color: white;
 	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
 				 1px 3px 4px rgba(0,0,0,0.1),
 				 1px 4px 5px rgba(0,0,0,0.1);
@@ -61,7 +52,32 @@ h3 {
 	font-size: 25px;
 	font-weight: bold;
 	margin: 0;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 16px 23px rgba(0,0,0,0.1);
+}
+
+.navbar-default {
+	background-color: #ffffff;
+	border: 1px solid #4f4f4f;
+}
+
+.navbar-fixed-bottom {
+	background-color: #777777;
+	color: #cccccc;
+	border-top: 6px solid #4aaaa5;
+}
+
+.icon {
+	font-size: 35px;
+	color: white;
 	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
 				 1px 3px 4px rgba(0,0,0,0.1),
 				 1px 4px 5px rgba(0,0,0,0.1);
+}
+
+.navbar-right a {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	color: #8e8b8b;
 }
