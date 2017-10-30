@@ -2,18 +2,18 @@ body {
 	background-image: url("images/ryan-holloway-168925.jpg");
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 }
 
-hr{
+hr {
 	color: #cccccc;
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-img {
-	float: left;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+.col-md-4 hr {
+	width: 750px;
 }
 
 h3 {
@@ -30,8 +30,12 @@ p {
 	font-size: 15px;
 }
 
+.col-md-8 p:nth-child(1) {
+	margin-top: 80px;
+}
+
 p.paragraph {
-	margin-left: 315px;
+	margin-left: 15px;
 	color: white;
 	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
 				 1px 3px 4px rgba(0,0,0,0.1),
@@ -39,6 +43,7 @@ p.paragraph {
 }
 
 p {
+	/*margin-top: 0;*/
 	color: white;
 	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
 				 1px 3px 4px rgba(0,0,0,0.1),
@@ -46,7 +51,7 @@ p {
 }
 
 #name {
-	background-color: #4aaaa5;
+	background-color: #117c75;
 	color: white;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 25px;
@@ -55,6 +60,20 @@ p {
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 				 0px 8px 13px rgba(0,0,0,0.1),
 				 0px 16px 23px rgba(0,0,0,0.1);
+	animation-duration: 3.75s;
+	animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .navbar-default {
@@ -66,6 +85,7 @@ p {
 	background-color: #777777;
 	color: #cccccc;
 	border-top: 6px solid #4aaaa5;
+	margin-top: 15px;
 }
 
 .icon {
@@ -80,4 +100,43 @@ p {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
 	color: #8e8b8b;
+}
+
+.photo {
+	float: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+}
+
+@media screen and (max-width: 1199px) {
+/*to correct the margins on the first two paragraphs*/
+	p.paragraph {
+	margin-left: 75px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+/*to correct the margins on the first two paragraphs*/
+	p.paragraph {
+	margin-left: 0;
+	margin-top: 0;
+	}
+
+	.photo {
+		width: 550px;
+		height: 400px;
+		margin-bottom: 0;
+		margin-left: 105px;
+	}
+
+}	
+
+@media screen and (max-width: 767px) {
+/*to correct the margins on the first two paragraphs*/
+	.photo {
+		width: 380px;
+		height: 270px;
+		margin-bottom: 0;
+		margin-left: 0;
+	}
+
 }
