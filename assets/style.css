@@ -108,6 +108,7 @@ label {
 
 .navbar-default:hover {
 	background-color: transparent;
+	border: 0;
 }
 
 #footer {
