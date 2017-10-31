@@ -1,3 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html. body {
+	height: 100%;
+}
+
+
 body {
 	background-image: url("images/ryan-holloway-168925.jpg");
 	background-size: cover;
@@ -43,7 +53,6 @@ p.paragraph {
 }
 
 p {
-	/*margin-top: 0;*/
 	color: white;
 	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
 				 1px 3px 4px rgba(0,0,0,0.1),
@@ -81,11 +90,13 @@ p {
 	border: 1px solid #4f4f4f;
 }
 
-.navbar-fixed-bottom {
+#footer {
 	background-color: #777777;
 	color: #cccccc;
 	border-top: 6px solid #4aaaa5;
-	margin-top: 15px;
+	margin-top: 97px;
+	clear: both;
+	position: sticky;
 }
 
 .icon {
@@ -128,15 +139,28 @@ p {
 		margin-left: 105px;
 	}
 
+	#footer {
+		margin-top: 45px;
+	}
+
 }	
 
 @media screen and (max-width: 767px) {
 /*to correct the margins on the first two paragraphs*/
 	.photo {
-		width: 380px;
+		width: 370px;
 		height: 270px;
 		margin-bottom: 0;
 		margin-left: 0;
+	}
+	#connect {
+		margin-left: 60px;
+		margin-right: 0;
+	}
+
+	.thumbnail {
+		width: 89%;
+		margin-left: 18px;
 	}
 
 }
