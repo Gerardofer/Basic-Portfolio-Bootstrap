@@ -164,7 +164,6 @@ label {
 	#footer {
 		margin-top: 45px;
 	}
-
 }	
 
 @media screen and (max-width: 767px) {
@@ -183,6 +182,10 @@ label {
 	.thumbnail {
 		width: 89%;
 		margin-left: 18px;
+	}
+
+	.btn-lg {
+		margin-left: 15px;
 	}
 
 }
