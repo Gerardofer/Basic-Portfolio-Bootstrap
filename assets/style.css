@@ -118,6 +118,12 @@ p {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 
+@media screen and (max-width: 1280px){
+	#footer{
+		margin-top: 176px;
+	}
+}
+
 @media screen and (max-width: 1199px) {
 /*to correct the margins on the first two paragraphs*/
 	p.paragraph {
