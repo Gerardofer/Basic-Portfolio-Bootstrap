@@ -1,15 +1,17 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
-import { InfoButton } from "./InfoButton"
+import { Accordion } from "./Accordion";
+import { InfoButton } from "./InfoButton";
 
 class Home extends Component {
-    render(){
-        return(
-            <div>
+  render() {
+    return (
+      <div>
         <Navbar />
-        </div>
-        );
-    }
+        <Accordion />
+      </div>
+    );
+  }
 }
 
 export default Home;
