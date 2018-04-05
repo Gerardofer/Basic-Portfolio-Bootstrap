@@ -36,6 +36,7 @@ export const Navbar = () => {
                   className="nav-link"
                   href="https://github.com/Gerardofer"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fa fa-github-alt" aria-hidden="true" />
                 </a>
@@ -45,7 +46,8 @@ export const Navbar = () => {
                 <a
                   className="nav-link"
                   href="https://www.linkedin.com/in/gerardo-fernandez-3033263b/"
-                  target="_blanked"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
@@ -55,7 +57,8 @@ export const Navbar = () => {
                 <a
                   className="nav-link"
                   href="https://stackoverflow.com/users/8629662/gerardo-fernandez"
-                  target="_blanked"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fa fa-stack-overflow" aria-hidden="true" />
                 </a>
@@ -65,7 +68,8 @@ export const Navbar = () => {
                 <a
                   className="nav-link"
                   href="https://twitter.com/gerardofer"
-                  target="_blanked"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fa fa-twitter" aria-hidden="true" />
                 </a>

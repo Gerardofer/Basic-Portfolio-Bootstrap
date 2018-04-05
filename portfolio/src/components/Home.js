@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
-import { Accordion } from "./Accordion";
+import Content from "./Content";
 import { InfoButton } from "./InfoButton";
 
 class Home extends Component {
@@ -8,7 +8,7 @@ class Home extends Component {
     return (
       <div>
         <Navbar />
-        <Accordion />
+        <Content />
       </div>
     );
   }
