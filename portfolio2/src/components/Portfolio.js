@@ -60,7 +60,7 @@ class Portfolio extends Component {
         return(
             <div className="row">
                 <div className="col">
-                <h3>Things I've built</h3>
+                <h3 className="center">Things I've built</h3>
                     {pages}
                 </div>
             </div>

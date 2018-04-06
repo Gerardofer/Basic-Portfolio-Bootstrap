@@ -3,6 +3,6 @@ import './About.css';
 
 export const About = () => {
     return (
-        <h3>Who I am</h3>    
+        <h3 className="center">Who I am</h3>    
     )
 } 
