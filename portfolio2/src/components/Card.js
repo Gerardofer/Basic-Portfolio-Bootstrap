@@ -7,8 +7,8 @@ class Card extends Component {
         const {image, title, info, website} = this.props;
     
         return (
-            
-                <div className="col s8 m4">
+            <div className="container">
+                <div className="col s7 m3">
                     <div className="card z-depth-3">
                         <div className='card-image waves-effect waves-block waves-light'>
                             <img className="activator" src={image} alt={title}/>
@@ -23,6 +23,7 @@ class Card extends Component {
                         </div>
                     </div>
                 </div>
+            </div>
             
         )    
     }

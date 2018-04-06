@@ -1,9 +1,9 @@
 .row {
-    display: flex;
+    /*display: flex;*/
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-/*.col {*/
-/*    flex-basis: 100%;*/
-/*}*/
+.col {
+    flex-basis: 100%;
+}
