@@ -1,3 +1,5 @@
+const db = require("../models");
+
 module.exports = app => {
   app.get("/", (req, res) => {
     res.render("home");
@@ -12,6 +14,12 @@ module.exports = app => {
   });
 
   app.get("/portfolio", (req, res) => {
-    res.render("portfolio");
+    db.Profile.find({}, (err, allProfile) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.render("portfolio", { profile: allProfile });
+      }
+    });
   });
 };
