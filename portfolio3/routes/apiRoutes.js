@@ -9,6 +9,10 @@ module.exports = (app) => {
     });
     
     app.get("/about", (req, res) => {
-        res.render("about")
-    })
-}
+        res.render("about");
+    });
+    
+    app.get("/portfolio", (req, res) => {
+        res.render("portfolio");
+    });
+};
