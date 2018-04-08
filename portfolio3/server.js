@@ -7,17 +7,6 @@ const PORT = process.env.PORT || 8080;
 
 mongoose.connect("mongodb://localhost/gerardoProfile");
 
-// let Schema = mongoose.Schema;
-
-// let ProfileSchema = new Schema({
-//   image: String,
-//   title: String,
-//   info: String,
-//   website: String
-// });
-
-// var Profile = mongoose.model("Profile", ProfileSchema);
-
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
