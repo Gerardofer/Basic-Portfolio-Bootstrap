@@ -1,8 +1,8 @@
 body {
-  /* background-image: url("../images/Gerardo_Fernandez_1.jpg");
+  background-image: url("../images/about_pic.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;*/
+  background-attachment: fixed;
   font-family: "Philosopher", sans-serif;
 }
 
@@ -14,4 +14,8 @@ img {
 
 div.container {
   margin-top: 0;
+}
+
+div.col.s8.pull-s4 p {
+  font-size: 1.5rem;
 }

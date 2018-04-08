@@ -9,10 +9,14 @@
   margin: 0 5px 0 5px;
 }
 
+#footer {
+  margin-top: 30px;
+}
+
 .fa {
   font-size: 2.5rem;
   margin: 6px 6px;
-  color: #00175e41;
+  color: #00000041;
   transition: 0.15s;
 }
 
@@ -23,7 +27,7 @@ div.wrapper {
 }
 
 .fa:hover {
-  color: rgba(8, 65, 3, 0.685);
+  color: rgba(0, 0, 0, 0.685);
   transition: 0.15s;
 }
 
@@ -32,8 +36,12 @@ a {
   color: black;
 }
 
+.container p {
+  font-size: 1.5rem;
+}
+
 .center p {
-  margin-top: 10%;
+  margin-top: 15%;
   font-size: 11px;
 }
 

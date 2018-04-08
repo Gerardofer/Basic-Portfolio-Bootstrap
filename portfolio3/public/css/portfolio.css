@@ -15,3 +15,7 @@ div img {
 div.container {
   margin-top: 0;
 }
+
+div.col.s8 p {
+  font-size: 1.25rem;
+}
